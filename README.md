@@ -19,6 +19,8 @@
 
 ## Todo
 
+- range的表現方式
+
 - 決定z-index放哪
 
 - text style的命名
@@ -71,7 +73,14 @@
 
 - 所有顏色的處理都放在這
 
--
+
+### Image
+
+- 跟照片有關的處理會放在這，包括filter
+
+- Brightness
+
+    - 
 
 ### Word
 
