@@ -19,9 +19,12 @@
 
 ## Todo
 
-- range的表現方式
 
-- 決定z-index放哪
+- 決定`text-align`放在哪裡
+
+- range在doc說明的表現方式()
+
+- 決定`z-index`放哪
 
 - text style的命名
 
@@ -34,6 +37,12 @@
 
 - color如果也抽成unit class會不會過度抽象化
 
+
+-----
+
+## CSS style
+
+- 註解的地方全部用大寫英文
 
 -----
 
@@ -71,10 +80,14 @@
 
 ### Color
 
+- color.css.scss
+
 - 所有顏色的處理都放在這
 
 
 ### Image
+
+- image.css.scss
 
 - 跟照片有關的處理會放在這，包括filter
 
@@ -84,4 +97,4 @@
 
 ### Word
 
-- 包含font-size,
+- 包含font-size letter-spacing
