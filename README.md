@@ -19,18 +19,18 @@
 
 ## Todo
 
-[] 決定z-index放哪
+- 決定z-index放哪
 
-[] text style的命名
+- text style的命名
 
-[] utility（常用的class）
+- utility（常用的class）
 
 
 -----
 
 ## Issue
 
-[] color如果也抽成unit class會不會過度抽象化
+- color如果也抽成unit class會不會過度抽象化
 
 
 -----
