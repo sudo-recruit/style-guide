@@ -4,15 +4,15 @@
 
 - 原則
     
-1. 減少巢狀、針對性的class、html tag
+    1. 減少巢狀、針對性的class、html tag
 
-2. 盡量把對style的調整都抽象出來變成一個class（以下稱unit class）
+    2. 盡量把對style的調整都抽象出來變成一個class（以下稱unit class）
 
-3. 確定component使用上述的class組合不出來時，才使用特定的class去定義它的style
+    3. 確定component使用上述的class組合不出來時，才使用特定的class去定義它的style
 
-4. 用unit class來定義
+    4. 用unit class來定義
 
-5. 上述的component如果畫面上只會出現一次，使用id來定義它
+    5. 上述的component如果畫面上只會出現一次，使用id來定義它
 
 
 -----
