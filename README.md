@@ -14,11 +14,23 @@
 
     5. 上述的component如果畫面上只會出現一次，使用id來定義它
 
+-----
+
+#### NOTE ：筆記區
+
+- 如果最外層已經有id的話，除非__有必要__，否則盡量不要再增加class來指定element，使用原生的html tag去調整
+
+    - 優點：較乾淨的html view
+
+    - 缺點：要想一下再寫
+
+    - 結論：其實要想一下再去寫雖然會多花一些開發時間，但是長期看下來會寫出較好維護html。例外的情況就是這個element內部有一個非常複雜的component要指定，就可以考慮多給一個class、或是id。
 
 -----
 
 ## Todo
 
+- 在html裡面擺放的順序
 
 - 決定`text-align`放在哪裡
 
@@ -39,6 +51,10 @@
 
 
 -----
+
+## HTML
+
+- 放置class的順序 `position` > `width` > `height` >
 
 ## CSS style
 
@@ -98,3 +114,4 @@
 ### Word
 
 - 包含font-size letter-spacing
+
