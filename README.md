@@ -59,6 +59,7 @@
 ## CSS style
 
 - 註解的地方全部用大寫英文
+- 需要決定 css property 的順序（比如說先height > width 等等）
 
 -----
 
