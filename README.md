@@ -26,9 +26,17 @@
 
     - 結論：其實要想一下再去寫雖然會多花一些開發時間，但是長期看下來會寫出較好維護html。例外的情況就是這個element內部有一個非常複雜的component要指定，就可以考慮多給一個class、或是id。
 
+- 上述情況，如果考慮到button等可能會需要加入event的地方，可以有以下選項：
+
+    - 讓front-end自己加上id
+    
+    - 一開始就做好一個id當接口給他
+
 -----
 
 ## Todo
+
+- 調整box padding或margin的地方，垂直用px(命名地方用數字)，水平用percentage
 
 - 在html裡面擺放的順序
 
@@ -41,6 +49,8 @@
 - text style的命名
 
 - utility（常用的class）
+
+
 
 
 -----
